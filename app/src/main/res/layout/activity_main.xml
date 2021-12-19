@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <HorizontalScrollView
+            android:id="@+id/category"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:scrollbarSize="0dp"
+            tools:ignore="SpeakableTextPresentCheck">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:background="#FFFA00"
+                android:gravity="center_vertical"
+                android:isScrollContainer="false"
+                android:orientation="horizontal">
+
+                <Space
+                    android:layout_width="13dp"
+                    android:layout_height="match_parent" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/nature"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/nature">
+
+                </de.hdodenhof.circleimageview.CircleImageView>
+
+                <Space
+                    android:layout_width="30dp"
+                    android:layout_height="match_parent" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/wildlife"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/wildlife">
+
+                </de.hdodenhof.circleimageview.CircleImageView>
+
+                <Space
+                    android:layout_width="30dp"
+                    android:layout_height="match_parent" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/celebrity"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/celebrity">
+
+                </de.hdodenhof.circleimageview.CircleImageView>
+
+                <Space
+                    android:layout_width="30dp"
+                    android:layout_height="match_parent" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/event"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/event">
+
+                </de.hdodenhof.circleimageview.CircleImageView>
+
+                <Space
+                    android:layout_width="30dp"
+                    android:layout_height="match_parent" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/sport"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/sport">
+
+                </de.hdodenhof.circleimageview.CircleImageView>
+
+                <Space
+                    android:layout_width="10dp"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <ProgressBar
+            android:id="@+id/loading"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:outlineAmbientShadowColor="@color/black"
+            android:outlineSpotShadowColor="@color/black">
+
+        </ProgressBar>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#008F8A2C">
+
+
+        </androidx.recyclerview.widget.RecyclerView>
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "686547500740",
+    "project_id": "unixpaper-1b6b4",
+    "storage_bucket": "unixpaper-1b6b4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:686547500740:android:e2f3fb6c199269451b9391",
+        "android_client_info": {
+          "package_name": "com.sunayanpradhan.unixpaper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "686547500740-hpadg94vn1cre7br0ohmna1jj0bjq3mi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sunayanpradhan.unixpaper",
+            "certificate_hash": "42965e30fe4dac53aea971c79e7048fbb9f01684"
+          }
+        },
+        {
+          "client_id": "686547500740-cqqqakil2ss68pu7kiffkfkoussro3pb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC99gPlpcYspq4kxmE_UO0o1AQjYmisYsE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "686547500740-cqqqakil2ss68pu7kiffkfkoussro3pb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
