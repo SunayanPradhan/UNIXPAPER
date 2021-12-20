@@ -35,7 +35,7 @@ public class EventActivity extends AppCompatActivity {
         recyclerView.setLayoutManager(new LinearLayoutManager(EventActivity.this));
         adapter= new WallpaperAdapter(list,EventActivity.this);
         recyclerView.setAdapter(adapter);
-        reference= FirebaseDatabase.getInstance().getReference("images").child("home");
+        reference= FirebaseDatabase.getInstance().getReference("images").child("event");
         //recyclerView.setHasFixedSize(true);
         getData();
 

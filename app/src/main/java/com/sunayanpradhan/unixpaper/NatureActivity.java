@@ -36,7 +36,7 @@ public class NatureActivity extends AppCompatActivity {
         recyclerView.setLayoutManager(new LinearLayoutManager(NatureActivity.this));
         adapter= new WallpaperAdapter(list,NatureActivity.this);
         recyclerView.setAdapter(adapter);
-        reference= FirebaseDatabase.getInstance().getReference("images").child("home");
+        reference= FirebaseDatabase.getInstance().getReference("images").child("nature");
         //recyclerView.setHasFixedSize(true);
         getData();
     }

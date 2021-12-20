@@ -35,7 +35,7 @@ public class SportActivity extends AppCompatActivity {
         recyclerView.setLayoutManager(new LinearLayoutManager(SportActivity.this));
         adapter= new WallpaperAdapter(list,SportActivity.this);
         recyclerView.setAdapter(adapter);
-        reference= FirebaseDatabase.getInstance().getReference("images").child("home");
+        reference= FirebaseDatabase.getInstance().getReference("images").child("sport");
         //recyclerView.setHasFixedSize(true);
         getData();
     }

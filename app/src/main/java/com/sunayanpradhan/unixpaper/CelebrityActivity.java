@@ -36,7 +36,7 @@ public class CelebrityActivity extends AppCompatActivity {
         recyclerView.setLayoutManager(new LinearLayoutManager(CelebrityActivity.this));
         adapter= new WallpaperAdapter(list,CelebrityActivity.this);
         recyclerView.setAdapter(adapter);
-        reference= FirebaseDatabase.getInstance().getReference("images").child("home");
+        reference= FirebaseDatabase.getInstance().getReference("images").child("celebrity");
         //recyclerView.setHasFixedSize(true);
         getData();
     }
