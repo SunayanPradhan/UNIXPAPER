@@ -3,15 +3,21 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/sunay/AndroidStudioProjects/UNIXPAPER/app/src/main/res/drawable/border.xml" value="0.1421875" />
         <entry key="..\:/Users/sunay/AndroidStudioProjects/UNIXPAPER/app/src/main/res/drawable/ic_launcher_background.xml" value="0.20277777777777778" />
+        <entry key="..\:/Users/sunay/AndroidStudioProjects/UNIXPAPER/app/src/main/res/drawable/recycler_border.xml" value="0.1421875" />
+        <entry key="..\:/Users/sunay/AndroidStudioProjects/UNIXPAPER/app/src/main/res/drawable/rounded_corner.xml" value="0.25925925925925924" />
+        <entry key="..\:/Users/sunay/AndroidStudioProjects/UNIXPAPER/app/src/main/res/drawable/rounded_top.xml" value="0.1421875" />
         <entry key="..\:/Users/sunay/AndroidStudioProjects/UNIXPAPER/app/src/main/res/layout/activity_celebrity.xml" value="0.11398176291793313" />
-        <entry key="..\:/Users/sunay/AndroidStudioProjects/UNIXPAPER/app/src/main/res/layout/activity_download.xml" value="0.176" />
+        <entry key="..\:/Users/sunay/AndroidStudioProjects/UNIXPAPER/app/src/main/res/layout/activity_download.xml" value="0.2" />
         <entry key="..\:/Users/sunay/AndroidStudioProjects/UNIXPAPER/app/src/main/res/layout/activity_event.xml" value="0.11398176291793313" />
         <entry key="..\:/Users/sunay/AndroidStudioProjects/UNIXPAPER/app/src/main/res/layout/activity_main.xml" value="0.16" />
         <entry key="..\:/Users/sunay/AndroidStudioProjects/UNIXPAPER/app/src/main/res/layout/activity_nature.xml" value="0.1" />
         <entry key="..\:/Users/sunay/AndroidStudioProjects/UNIXPAPER/app/src/main/res/layout/activity_sport.xml" value="0.11398176291793313" />
         <entry key="..\:/Users/sunay/AndroidStudioProjects/UNIXPAPER/app/src/main/res/layout/activity_wildlife.xml" value="0.11398176291793313" />
         <entry key="..\:/Users/sunay/AndroidStudioProjects/UNIXPAPER/app/src/main/res/layout/design_main.xml" value="0.16" />
+        <entry key="..\:/Users/sunay/AndroidStudioProjects/UNIXPAPER/app/src/main/res/layout/round_corner_top.xml" value="0.12604166666666666" />
+        <entry key="..\:/Users/sunay/AndroidStudioProjects/UNIXPAPER/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.25925925925925924" />
       </map>
     </option>
   </component>
